@@ -22,3 +22,5 @@ let sessionList = [];
   //export default - purpose to simplify imports
   //using import from will get this function
   export {getSessions as default, sessionURL};
+  export {sessionTemplate} from './template.js';
+  
